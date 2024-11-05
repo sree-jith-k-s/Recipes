@@ -1,0 +1,37 @@
+.search_box {
+    margin-top: 20px;
+}
+
+.search_box input {
+    border-radius: 20px 0 0 20px; /* Rounded corners on the left */
+    border: 1px solid #ccc; /* Optional border */
+    padding: 10px 15px; /* Padding for input */
+    flex: 1; /* Allow input to grow */
+}
+
+.add_recipe_btn {
+    border-radius: 20px; /* Rounded corners for search button */
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* Button text color */
+    padding: 10px 20px; /* Padding for button */
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-left: 25px;
+}
+
+.add_recipe_btn:hover {
+    background-color: #e65100; /* Darker shade on hover */
+}
+
+.search_btn {
+    border-radius: 0 20px 20px 0; /* Rounded corners on the right */
+    background-color: #ff5a00; /* Button background color */
+    color: white; /* Button text color */
+    padding: 10px 20px; /* Padding for button */
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.search_btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
